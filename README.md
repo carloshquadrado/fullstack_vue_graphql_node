@@ -1,5 +1,10 @@
 # Projeto FullStack - Vue / GraphQL / Node
 
+Projeto de desenvolvimento e aprendizado do Vue / GraphQL / Node
+Acompanhando Projeto Completo do Rodrigo Branas
+https://www.youtube.com/rodrigobranas
+https://github.com/rodrigobranas
+
 ## Preparação do Ambiente
 
 ### Instalando o NodeJS
