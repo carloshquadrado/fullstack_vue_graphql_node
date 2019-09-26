@@ -1,29 +1,29 @@
-# 1
+# Projeto FullStack - Vue / GraphQL / Node
 
-## Project setup
+## Preparação do Ambiente
+
+### Instalando o NodeJS
 ```
-npm install
+Baixar a versão do NodeJs (https://nodejs.org/en/)
+    Versão utilizada: 
+```
+### Instalando o VueJS
+```
+npm install -g @vue/cli
+    Versão utilizada: 
 ```
 
-### Compiles and hot-reloads for development
+### Rodar o Servidor com refresh automático para Desenvolvimento
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar e diminuí-los para Produção
 ```
 npm run build
 ```
 
-### Run your tests
+### Rodar seus Testes
 ```
 npm run test
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
