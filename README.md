@@ -13,12 +13,12 @@ https://github.com/rodrigobranas
 ### Instalando o NodeJS
 ```
 Baixar a versão do NodeJs (https://nodejs.org/en/)
-    Versão utilizada: 
+    Versão utilizada: v10.16.3
 ```
 ### Instalando o VueJS
 ```
 npm install -g @vue/cli
-    Versão utilizada: 
+    Versão utilizada: 2.6.10
 ```
 
 
