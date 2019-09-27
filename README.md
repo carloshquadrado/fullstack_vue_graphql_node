@@ -20,7 +20,13 @@ Baixar a versão do NodeJs (https://nodejs.org/en/)
 npm install -g @vue/cli
     Versão utilizada: 2.6.10
 ```
-
+### Criando o Ambiente com o VueJS
+```
+vue create .
+    OBS: Fazer na pasta do Projeto
+Current directory? Y
+Pick a preset: default (babel, eslint)
+```
 
 ## Utilização do Ambiente
 
