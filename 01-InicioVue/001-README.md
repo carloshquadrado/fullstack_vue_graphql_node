@@ -229,3 +229,14 @@ Alterar o Span para o código a seguir:
 
 <span class="badge badge-info">{{ sufixos.length }}</span>
 ```
+### Na tag < script>, na propriedade data, incluir o Domínio
+```
+O Domínio irá começar a fazer a concatenação entre Prefixo e Sufixo
+
+  data: function () {
+    return {
+      prefixos: ['Air','Jet','Flight'],
+      sufixos: ['Hub','Station','Mart'],
+      dominios: ['AirHub', 'AirJet', 'AirMart', 'JetHub', 'JetStation', 'JetMart', 'FlightHub', 'FlightStation', 'FlightMart']
+    };
+```
