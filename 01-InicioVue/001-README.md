@@ -135,3 +135,9 @@ Repetir o código abaixo trocando duas vezes uma trocando pelo X e outra Y.
               </div>
 ```
 
+### Antes do < div> Card - Incluir o título Prefixos + Badge Contador e no segundo o título Sufixos
+```
+<h5>Prefixos <span class="badge badge-info">0</span></h5>
+
+<h5>Sufixos <span class="badge badge-info">0</span></h5>
+```
