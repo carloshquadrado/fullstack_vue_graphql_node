@@ -60,3 +60,19 @@ Ficando da seguinte forma:
 
 </style>
 ```
+
+## < template > - Inclusão de < div> , título e padrões Bootstrap
+###Tag < div>< /div>
+``` 
+Criar uma tag div dentro da template pois é obrigatório o projeto ter uma div "root", sem ela o projeto dá erro
+```
+###Título+Bootstrap
+```
+Criar dentro da tag <div> o seguinte trecho:
+
+Usar a centralização do bootstrap
+    <div class="text-center">
+Título do Projeto com tag <h1>    
+      <h1>NameGator</h1>
+    </div>
+```
