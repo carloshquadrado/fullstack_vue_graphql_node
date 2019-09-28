@@ -10,7 +10,7 @@ Pick a preset: default (babel, eslint)
 
 ## Limpando o arquivo padrão App.vue
 
-###Tag <script></script>
+###Tag < script>< /script>
 ```
 Remover a linha da importação do componente HelloWorld dentro da tag <script>
 Remover as linhas da renderização do componente HelloWorld dentro da tag <script>
@@ -28,7 +28,7 @@ export default {
 }
 ```
 
-###Tag < template></template >
+###Tag < template>< /template>
 ```
 Remover o bloco abaixo, retirando o logo e o título.
 
@@ -42,7 +42,7 @@ Ficando da seguinte forma:
 
 </template>
 ```
-###Tag <style></style>
+###Tag < style>< /style>
 ```
 Remover o bloco abaixo, retirando a estilização CSS.
 
