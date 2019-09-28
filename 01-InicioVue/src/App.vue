@@ -5,6 +5,9 @@
       <br/>
       <h6 class="text-secondary">Gerador de Nomes utilizando Vue.js, GraphQL e Node</h6>
     </div>
+    <div id="main">
+
+    </div>
   </div>
 </template>
 
@@ -21,5 +24,11 @@ export default {
 #slogan {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+#main {
+  background-color: #F1F1F1;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 </style>
