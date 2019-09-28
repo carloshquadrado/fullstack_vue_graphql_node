@@ -85,3 +85,9 @@ Ver o processo no README.md do projeto
 import "bootstrap/dist/css/bootstrap.css"
 import "font-awesome/css/font-awesome.css"
 ```
+
+### Na tag < template> - Adicionar o texto secundário, utilizando também uma função do Bootstrap
+```
+      <br/>
+      <h6 class="text-secondary">Gerador de Nomes utilizando Vue.js, GraphQL e Node</h6>
+```
