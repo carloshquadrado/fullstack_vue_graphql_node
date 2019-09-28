@@ -12,6 +12,17 @@
               <h5>Prefixos <span class="badge badge-info">0</span></h5>
               <div class="card">
                 <div class="card-body">
+                  <ul class="list-group">
+                      <li class="list-group-item">
+                        A
+                      </li>
+                      <li class="list-group-item">
+                        B
+                      </li>
+                      <li class="list-group-item">
+                        C
+                      </li>
+                  </ul>                  
                 </div>
               </div>
             </div>
@@ -19,6 +30,17 @@
               <h5>Sufixos <span class="badge badge-info">0</span></h5>
               <div class="card">
                 <div class="card-body">
+                 <ul class="list-group">
+                      <li class="list-group-item">
+                        D
+                      </li>
+                      <li class="list-group-item">
+                        E
+                      </li>
+                      <li class="list-group-item">
+                        F
+                      </li>
+                  </ul>                    
                 </div>
               </div>
             </div>
