@@ -112,3 +112,18 @@ import "font-awesome/css/font-awesome.css"
   padding-bottom: 30px;
 }
 ```
+### Dentro da Main - Criar uma nova < div> Container, dentro dela  < div>  row, dentro dela < div> col-md - dívida em duas colunas
+```
+      <div class="container">
+          <div class="row">
+            <div class="col-md">
+              X
+            </div>
+            <div class="col-md">
+              Y
+            </div>
+          </div>
+      </div>
+```
+
+
