@@ -189,3 +189,36 @@ data: function () {
     };
   }
 ```
+### Utilizar os dados do Vetor Prefixos e Sufixos na < li>
+```
+Prefixos
+Remover:
+                      <li class="list-group-item">
+                        A
+                      </li>
+                      <li class="list-group-item">
+                        B
+                      </li>
+                      <li class="list-group-item">
+                        C
+                      </li>
+Adicionar:
+                      <li class="list-group-item" v-for="prefix in prefixos" v-bind:key="prefix">
+                        {{ prefix }}
+                      </li>
+                      
+Remover:
+                      <li class="list-group-item">
+                        D
+                      </li>
+                      <li class="list-group-item">
+                        E
+                      </li>
+                      <li class="list-group-item">
+                        F
+                      </li>
+Adicionar:
+                      <li class="list-group-item" v-for="sufix in sufixos" v-bind:key="sufix">
+                        {{ sufix }}
+                      </li>
+```                   
