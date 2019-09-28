@@ -240,3 +240,17 @@ O Domínio irá começar a fazer a concatenação entre Prefixo e Sufixo
       dominios: ['AirHub', 'AirJet', 'AirMart', 'JetHub', 'JetStation', 'JetMart', 'FlightHub', 'FlightStation', 'FlightMart']
     };
 ```
+### Após a < div> row, incluir o código para exibir o Domínio, fazer um contador e renderizar o vetor
+```
+          <br/>
+          <h5>Domínio <span class="badge badge-info">{{ dominios.length }}</span></h5>
+          <div class="card">
+             <div class="card-body">
+               <ul class="list-group">
+                  <li class="list-group-item" v-for="domain in dominios" v-bind:key="domain">
+                     {{ domain }}
+                  </li>
+               </ul>      
+              </div>
+           </div>
+```
