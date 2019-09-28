@@ -1,6 +1,5 @@
 # Aula 001
 
-```
 ## Criando o Ambiente com o VueJS
 ```
 vue create .
@@ -11,30 +10,26 @@ Pick a preset: default (babel, eslint)
 
 ## Limpando o arquivo padrão App.vue
 
-###Tag <Script>
+###Tag <script></script>
 ```
 Remover a linha da importação do componente HelloWorld dentro da tag <script>
 Remover as linhas da renderização do componente HelloWorld dentro da tag <script>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import HelloWorld from './components/HelloWorld.vue '
 
   components: {
     HelloWorld
   }
-</script>
-
 
 Ficando  da seguinte forma:
-<script>
 export default {
   name: 'app'
 }
-</script>
-``
+```
 
-###Tag <Template>
-``
+###Tag <template></template>
+```
 Remover o bloco abaixo, retirando o logo e o título.
 
   <div id="app">
@@ -46,9 +41,9 @@ Ficando da seguinte forma:
 <template>
 
 </template>
-``
-###Tag <style>
-``
+```
+###Tag <style></style>
+```
 Remover o bloco abaixo, retirando a estilização CSS.
 
 #app {
@@ -64,4 +59,4 @@ Ficando da seguinte forma:
 <style>
 
 </style>
-``
+```
