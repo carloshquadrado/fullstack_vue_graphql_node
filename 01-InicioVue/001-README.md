@@ -91,3 +91,12 @@ import "font-awesome/css/font-awesome.css"
       <br/>
       <h6 class="text-secondary">Gerador de Nomes utilizando Vue.js, GraphQL e Node</h6>
 ```
+### Na tag < div> do título - Adicionadando o ID="slogan" / Na tag < style> adicionando o estilo
+```
+<div id="slogan" class="text-center">
+
+#slogan {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+```
