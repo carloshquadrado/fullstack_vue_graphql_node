@@ -25,7 +25,11 @@ npm install -g @vue/cli
 npm install bootstrap --save
     Versão utilizada: 4.3.1
 ```
-
+### Instalando o Font-Awesome
+```
+npm install font-awesome --save
+    Versão utilizada: 4.7.0
+```
 ## Utilização do Ambiente
 
 ### Rodar o Servidor com refresh automático para Desenvolvimento
