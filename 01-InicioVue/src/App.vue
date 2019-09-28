@@ -6,7 +6,16 @@
       <h6 class="text-secondary">Gerador de Nomes utilizando Vue.js, GraphQL e Node</h6>
     </div>
     <div id="main">
-
+      <div class="container">
+          <div class="row">
+            <div class="col-md">
+              X
+            </div>
+            <div class="col-md">
+              Y
+            </div>
+          </div>
+      </div>
     </div>
   </div>
 </template>
