@@ -28,7 +28,7 @@ export default {
 }
 ```
 
-###Tag <template></template>
+###Tag < template></template >
 ```
 Remover o bloco abaixo, retirando o logo e o título.
 
