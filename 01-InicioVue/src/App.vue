@@ -9,12 +9,14 @@
       <div class="container">
           <div class="row">
             <div class="col-md">
+              <h5>Prefixos <span class="badge badge-info">0</span></h5>
               <div class="card">
                 <div class="card-body">
                 </div>
               </div>
             </div>
             <div class="col-md">
+              <h5>Sufixos <span class="badge badge-info">0</span></h5>
               <div class="card">
                 <div class="card-body">
                 </div>
