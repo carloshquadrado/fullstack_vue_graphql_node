@@ -13,14 +13,8 @@
               <div class="card">
                 <div class="card-body">
                   <ul class="list-group">
-                      <li class="list-group-item">
-                        A
-                      </li>
-                      <li class="list-group-item">
-                        B
-                      </li>
-                      <li class="list-group-item">
-                        C
+                      <li class="list-group-item" v-for="prefix in prefixos" v-bind:key="prefix">
+                        {{ prefix }}
                       </li>
                   </ul>    
                   <br/>
@@ -33,14 +27,8 @@
               <div class="card">
                 <div class="card-body">
                  <ul class="list-group">
-                      <li class="list-group-item">
-                        D
-                      </li>
-                      <li class="list-group-item">
-                        E
-                      </li>
-                      <li class="list-group-item">
-                        F
+                      <li class="list-group-item" v-for="sufix in sufixos" v-bind:key="sufix">
+                        {{ sufix }}
                       </li>
                   </ul>      
                   <br/>
