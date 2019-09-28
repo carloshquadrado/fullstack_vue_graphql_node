@@ -125,5 +125,13 @@ import "font-awesome/css/font-awesome.css"
           </div>
       </div>
 ```
+### Dentro do Container - Trocar o X e Y por < div> Card e dentro < div> Card-body
+```
+Repetir o código abaixo trocando duas vezes uma trocando pelo X e outra Y.
 
+              <div class="card">
+                <div class="card-body">
+                </div>
+              </div>
+```
 
