@@ -168,3 +168,12 @@ Sufixos
                       </li>
                   </ul>    
 ```
+
+### Depois da < ul>, incluir o input para Prefixo e Sufixo
+```
+                  <br/>
+                  <input class="form-control" type="text" placeholder="Digite o Prefixo"/>  
+
+                  <br/>
+                  <input class="form-control" type="text" placeholder="Digite o Sufixo"/>  
+```                  
