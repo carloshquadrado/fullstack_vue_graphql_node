@@ -51,7 +51,8 @@ export default {
   data: function () {
     return {
       prefixos: ['Air','Jet','Flight'],
-      sufixos: ['Hub','Station','Mart']
+      sufixos: ['Hub','Station','Mart'],
+      dominios: ['AirHub', 'AirJet', 'AirMart', 'JetHub', 'JetStation', 'JetMart', 'FlightHub', 'FlightStation', 'FlightMart']
     };
   }
 }
