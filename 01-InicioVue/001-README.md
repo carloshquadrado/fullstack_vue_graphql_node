@@ -141,3 +141,30 @@ Repetir o código abaixo trocando duas vezes uma trocando pelo X e outra Y.
 
 <h5>Sufixos <span class="badge badge-info">0</span></h5>
 ```
+### Dentro da < div> card-body, incluir < ul> list-group e < li> list-group-item para Prefixo e Sufixo
+```
+Prefixos
+                  <ul class="list-group">
+                      <li class="list-group-item">
+                        A
+                      </li>
+                      <li class="list-group-item">
+                        B
+                      </li>
+                      <li class="list-group-item">
+                        C
+                      </li>
+                  </ul>  
+Sufixos
+                 <ul class="list-group">
+                      <li class="list-group-item">
+                        D
+                      </li>
+                      <li class="list-group-item">
+                        E
+                      </li>
+                      <li class="list-group-item">
+                        F
+                      </li>
+                  </ul>    
+```
