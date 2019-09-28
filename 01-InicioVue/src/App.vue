@@ -16,9 +16,9 @@
                       <li class="list-group-item" v-for="prefix in prefixos" v-bind:key="prefix">
                         {{ prefix }}
                       </li>
-                  </ul>    
+                  </ul>
                   <br/>
-                  <input class="form-control" type="text" placeholder="Digite o Prefixo"/>                    
+                  <input class="form-control" type="text" placeholder="Digite o Prefixo"/>                                                
                 </div>
               </div>
             </div>
@@ -26,17 +26,28 @@
               <h5>Sufixos <span class="badge badge-info">{{ sufixos.length }}</span></h5>
               <div class="card">
                 <div class="card-body">
-                 <ul class="list-group">
+                  <ul class="list-group">
                       <li class="list-group-item" v-for="sufix in sufixos" v-bind:key="sufix">
                         {{ sufix }}
                       </li>
-                  </ul>      
+                  </ul>                     
                   <br/>
-                  <input class="form-control" type="text" placeholder="Digite o Sufixo"/>                    
+                  <input class="form-control" type="text" placeholder="Digite o Sufixo"/>                  
                 </div>
               </div>
             </div>
           </div>
+          <br/>
+          <h5>Domínio <span class="badge badge-info">{{ dominios.length }}</span></h5>
+          <div class="card">
+             <div class="card-body">
+               <ul class="list-group">
+                  <li class="list-group-item" v-for="domain in dominios" v-bind:key="domain">
+                     {{ domain }}
+                  </li>
+               </ul>      
+              </div>
+           </div>
       </div>
     </div>
   </div>
