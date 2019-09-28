@@ -22,7 +22,9 @@
                       <li class="list-group-item">
                         C
                       </li>
-                  </ul>                  
+                  </ul>    
+                  <br/>
+                  <input class="form-control" type="text" placeholder="Digite o Prefixo"/>                    
                 </div>
               </div>
             </div>
@@ -40,7 +42,9 @@
                       <li class="list-group-item">
                         F
                       </li>
-                  </ul>                    
+                  </ul>      
+                  <br/>
+                  <input class="form-control" type="text" placeholder="Digite o Sufixo"/>                    
                 </div>
               </div>
             </div>
