@@ -10,7 +10,7 @@ Pick a preset: default (babel, eslint)
 
 ## Limpando o arquivo padrão App.vue
 
-###Tag < script>< /script>
+### Tag < script>< /script>
 ```
 Remover a linha da importação do componente HelloWorld dentro da tag <script>
 Remover as linhas da renderização do componente HelloWorld dentro da tag <script>
@@ -28,7 +28,7 @@ export default {
 }
 ```
 
-###Tag < template>< /template>
+### Tag < template>< /template>
 ```
 Remover o bloco abaixo, retirando o logo e o título.
 
@@ -42,7 +42,7 @@ Ficando da seguinte forma:
 
 </template>
 ```
-###Tag < style>< /style>
+### Tag < style>< /style>
 ```
 Remover o bloco abaixo, retirando a estilização CSS.
 
@@ -62,11 +62,11 @@ Ficando da seguinte forma:
 ```
 
 ## < template > - Inclusão de < div> , título e padrões Bootstrap
-###Tag < div>< /div>
+### Tag < div>< /div>
 ``` 
 Criar uma tag div dentro da template pois é obrigatório o projeto ter uma div "root", sem ela o projeto dá erro
 ```
-###Título+Bootstrap
+### Título+Bootstrap
 ```
 Criar dentro da tag <div> o seguinte trecho:
 
@@ -76,7 +76,12 @@ Título do Projeto com tag <h1>
       <h1>NameGator</h1>
     </div>
 ```
-###Instalar Bootstrap e Font-Awesome
+### Instalar Bootstrap e Font-Awesome
 ```
 Ver o processo no README.md do projeto
+```
+### Importar na tag < script> o Bootstrap e Font-Awesome
+```
+import "bootstrap/dist/css/bootstrap.css"
+import "font-awesome/css/font-awesome.css"
 ```
