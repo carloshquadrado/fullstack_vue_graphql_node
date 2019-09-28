@@ -100,3 +100,15 @@ import "font-awesome/css/font-awesome.css"
   margin-bottom: 30px;
 }
 ```
+### Criar uma nova < div> Main - Adicionadando o ID="main" / Na tag < style> adicionando o estilo
+```
+    <div id="main">
+
+    </div>
+    
+#main {
+  background-color: #F1F1F1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+```
