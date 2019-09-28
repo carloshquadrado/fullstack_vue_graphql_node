@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-center">
+    <div id="slogan" class="text-center">
       <h1>NameGator</h1>
       <br/>
       <h6 class="text-secondary">Gerador de Nomes utilizando Vue.js, GraphQL e Node</h6>
@@ -18,5 +18,8 @@ export default {
 </script>
 
 <style>
-
+#slogan {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 </style>
