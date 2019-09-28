@@ -177,3 +177,15 @@ Sufixos
                   <br/>
                   <input class="form-control" type="text" placeholder="Digite o Sufixo"/>  
 ```                  
+
+### Na tag < script>, incluir a propriedade data
+```
+Cria uma função que retorna um objeto Prefixo e outro Sufixo
+
+data: function () {
+    return {
+      prefixos: ['Air','Jet','Flight'],
+      sufixos: ['Hub','Station','Mart']
+    };
+  }
+```
