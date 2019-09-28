@@ -222,3 +222,10 @@ Adicionar:
                         {{ sufix }}
                       </li>
 ```                   
+### Contador de Prefixos e Sufixos
+```
+Alterar o Span para o código a seguir:
+<span class="badge badge-info">{{ prefixos.length }}</span>
+
+<span class="badge badge-info">{{ sufixos.length }}</span>
+```
