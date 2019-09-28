@@ -59,7 +59,13 @@ import "bootstrap/dist/css/bootstrap.css"
 import "font-awesome/css/font-awesome.css"
 
 export default {
-  name: 'app'
+  name: 'app',
+  data: function () {
+    return {
+      prefixos: ['Air','Jet','Flight'],
+      sufixos: ['Hub','Station','Mart']
+    };
+  }
 }
 </script>
 
