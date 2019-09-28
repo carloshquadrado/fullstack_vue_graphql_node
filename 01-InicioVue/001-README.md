@@ -76,3 +76,7 @@ Título do Projeto com tag <h1>
       <h1>NameGator</h1>
     </div>
 ```
+###Instalar Bootstrap e Font-Awesome
+```
+Ver o processo no README.md do projeto
+```
